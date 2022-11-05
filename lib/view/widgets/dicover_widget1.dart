@@ -20,7 +20,7 @@ class discover1 extends StatelessWidget {
           180.00,
         ),
         width: getHorizontalSize(
-          170.00,
+          180.00,
         ),
         margin: getMargin(
           right: 12,

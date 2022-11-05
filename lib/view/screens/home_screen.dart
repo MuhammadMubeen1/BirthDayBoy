@@ -107,7 +107,7 @@ class _HomeScreenState extends State<HomeScreen> {
               ),
               textAlign: TextAlign.center,
             ),
-            width: 110.0,
+            width: 99.0,
             height: 24.0,
           ),
           SizedBox(height: 8),
@@ -169,7 +169,7 @@ class _HomeScreenState extends State<HomeScreen> {
               ),
               textAlign: TextAlign.center,
             ),
-            width: 100.0,
+            width: 86.0,
             height: 24.0,
           ),
           SizedBox(

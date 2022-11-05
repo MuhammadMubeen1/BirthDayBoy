@@ -27,7 +27,7 @@ double getVerticalSize(double px) {
   return (px * height) / (DESIGN_HEIGHT - DESIGN_STATUS_BAR);
 }
 
-///This method is used to set smallest px in image height and width
+
 double getSize(double px) {
   var height = getVerticalSize(px);
   var width = getHorizontalSize(px);
@@ -60,7 +60,6 @@ EdgeInsetsGeometry getPadding({
   );
 }
 
-///This method is used to set margin responsively
 EdgeInsetsGeometry getMargin({
   double? all,
   double? left,
@@ -77,7 +76,7 @@ EdgeInsetsGeometry getMargin({
   );
 }
 
-///This method is used to get padding or margin responsively
+
 EdgeInsetsGeometry getMarginOrPadding({
   double? all,
   double? left,
